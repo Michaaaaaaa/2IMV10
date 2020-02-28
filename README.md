@@ -1,7 +1,7 @@
 # 2IMV10
 Preprocessing Images
 
-Standaard input: Preprocess(r"folders\abe.jpg", save=True, scale=1, amount=0.0001, keep_percentage=0.01, lowThreshold=100, highThreshold=300, kernel_size=(5,5), iterations=1)
+Standaard input: Preprocess(r"folders\abe.jpg", save=True, scale=1, amount=0.0001, keep_percentage=0.01, lowThreshold=100, highThreshold=255, kernel_size=(5,5), iterations=1)
 
 De parameters:
   - Save: maakt folder aan met de tijd, en daarin 3 bestanden: de image zelf, een array van zwarte pixels en een settings.txt met alle waardes van de variables + image size.
